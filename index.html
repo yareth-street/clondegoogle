@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Atajo para poner etiquetas !enter-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Para usar css y rel de relación-->
+    <link href="estilos.css" rel="stylesheet"> 
+    <title>Clon de google</title>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+<!--Lista desordenada  class fue para ponerle nombre o clase al ul-->
+              <ul class="nav-right-section">
+                <!--<a herf=""></a> PARA LINKS -->
+                   <li><a href="https://mail.google.com/mail/?tab=rm&ogbl" target="_blank">Gmail</a></li>
+                   <li><a href="https://www.google.com/imghp?hl=es&tab=ri&ogbl" target="_blank">Imagenes</a></li>
+                   <!--ENLACES MUERTOS # SOLO SE PONE LA MANO Y NO TE LLEVA A NINGUN LADO-->
+                   <li class="menu-icon"><a href="#"></a></li>
+
+                   <!--Foto copiar dirección de imagen-->
+                   <li><img src="https://lh3.googleusercontent.com/ogw/AKPQZvy5_93Fdw9t-_gr0kVoNZyMHputxTApKSvyB6vd=s32-c-mo"></li>
+              </ul>
+        </nav>
+    </header>
+
+    <!--IMAGEN DE GOOGLE VA EN MAIN PQ ES EL RESTO QUE ESTA TODOD BLANCO ESO ES EL MAIN-->
+    <main>
+<!--SECTION  1 PARA LA IMGEN DE GOOGLE-->
+        <section class="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </section>
+
+<!--SECTION  2 PARA LA BARRA-->
+        <section class="main-input">
+        <!--Icono de busqueda,etc actua como un contenerdor para elementos internos: lupita, barra de info, iconos camara y microfono  DIV puede bajar de arriba y hacia abajo hace salto de linea.-->
+            <div class="main-input-container">
+                <!--contenedor para icono de busqueda-->
+               <span class="search-icon"></span>
+               <!--etiqueta input-->
+               <input type="text">
+               <a class="micro-icon" href="#"></a>
+               <a class="cam-icon" href="#"></a>
+            </div> 
+        </section>
+<!--SECTION  3 PARA LOS BOTONES-->
+        <section class="main-buttons">
+            <div><button>Buscar con Google</button></div>
+            <div><button>Voy a tener suerte</button></div>
+        </section>
+    </main>
+
+<!--Barra gris poner hiperlinks-->
+    <footer>
+       <!--Listas left y right desordenadas-->
+       <!--lista left-->
+       <ul class="footer-left">
+            <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+            <li><a href="https://www.google.com/intl/es_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a></li>
+            <li><a href="https://google.com/search/howsearchworks/?fg=1">Como funciona la búsqueda</a></li>
+       </ul>
+       <!--lista derecha-->
+       <ul class="footer-right"> 
+            <li><a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a></li>
+            <li><a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a></li>
+            <li><a href="#">Preferencias</a></li> <!--link muerto #-->
+       </ul>
+
+    </footer>
+</body>
+</html>

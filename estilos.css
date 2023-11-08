@@ -1,0 +1,214 @@
+body{
+/*Para separar*/
+    margin: 0;
+    padding: 0;
+/*Tamaño de la fuente*/
+font-size: 16px;
+/*Tipo de letra*/
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Modificarr como se ve header*/
+header{
+    width: 100%;
+    height: 60px;
+}
+
+
+    /*flex box para q la pagina sea un cajon y se acomode el contenitdo de acuero a los tamaños de la pagina*/
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Poner punto para que sepa que es una class los nav*/
+header nav .nav-right-section{
+width: 250px;
+height: auto;
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+}
+
+a {
+    /*QUITAR LINEAS DE IMAGENES Y GMAIL*/
+     text-decoration: none;
+     margin-right: 25px;
+     color:black;
+}
+
+nav .nav-right-section img{
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    width: 27px;
+    height: 27px;
+    /*Tamaño del bakcground content para que se acomode*/
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*ESTILO DEL MAIN*/
+/*IMAGEN DEL google*/
+main{
+    /*px=pixeles*/
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*elimina los margenes de arriba y bajo con 0; los margenes de los lados pone de manera automatica; margin separar elementos*/
+main .main-logo{
+     width: 350px;
+     margin: 0 auto;
+     margin-bottom: 35px;
+}
+
+/*logos a la imagen*/
+main .main-logo img{
+    width: 310 px;
+    height: 110px;
+}
+
+/*barra de GOOGLE ESTILO se dividió en 4 partes*/
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/*darle estilo a la barra input para ingresar algo*/
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container{
+    width: 525px;
+    /*pixel solid para que se vea y con color*/
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    /*hacer flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /*resaltar efecto de barrita*/
+    main .main-input-container:hover{
+         box-shadow: 0 1px 6px 0 #20212447;  
+}
+
+/*SESION 9*/
+/*LUPA*/
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    /*separar a la izquierda*/
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*MICRO*/
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*CAMARA*/
+main .main-input .cam-icon{
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQU9EB56qp8B5qgt89OtkGpN86KFafBM7cBixk1nXOs7ukEVbJE");
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*BUTTONS*/
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    /*Poner los buttons uno a lado de otro*/
+    display: inline-block;
+}
+
+main .main-buttons button{
+    /*mas altos los buttons*/
+    height: 36px;
+    background-color: #f8f9fa;
+    /*se desaparece el border*/
+    border: 0;
+    /*cambiar tamaño de fuente*/
+    font-size: 14px;
+    /*color de la fuente de los botones*/
+    color: #5f6368;
+    /*propiedad para los botones de esquinas redondas?border-radius*/
+    border-radius: 6px;
+    padding: 0 15px;
+    /*separen entre ellos*/
+    margin-right: 12px;
+}
+
+/*EFECTO DE SOMBRA*/
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    /*arriba 0, sombra 0.5 right, abajo 1, izq 0 de sombra*/
+    box-shadow: 0 0.5px 1px 0 #000001;
+    /*cursor poner manita*/
+    cursor: pointer;
+}
+/*inspeccionar para ver las lineas del codigo y al mismo tiempo lo de la pagina para saber que cosa va con que*/
+
+
+
+/*SESION #10 -- FOOTER*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    /*para dividirlas en dos columnas*/
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    /*aplica para ambas listas porque las dos son ul*/   /*According to Nancy Salazar: Usar porcentajes para el width es común en diseños web fluidos y responsivos, ya que se adapta a la anchura del elemento contenedor, lo que permite que la página se vea bien en una variedad de dispositivos. Los píxeles, por otro lado, son útiles cuando necesitas un tamaño fijo que no cambie con el tamaño de la ventana del navegador o del dispositivo. :)*/
+    margin: 50px;
+    /*list-style: none es para quitar los puntos negros*/
+    list-style: none;
+    /*convierte las dos columnas en una fila el diplay*/
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
