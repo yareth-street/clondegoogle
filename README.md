@@ -7,7 +7,7 @@
 4. Link a demo
 
 ### 1. Intro
-HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los dias en el navegador. En este proyecto, con los conocimientos de HTML y CSS realicé la clonación de la interfaz de Google
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> trabaja de la mano con <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> para crear páginas web que usamos todos los dias en el navegador. En este proyecto, con los conocimientos de HTML y CSS realicé la clonación de la interfaz de Google
 
 ### 2. Qué construí
 En este proyecto me enfoque en construí la clonación de la interfaz de Google. 
@@ -15,6 +15,10 @@ Contiene las siguietes secciones:
 
 - **Header:** Sección que ivolucra la foto de mi perfil, iconos y un menú con enlaces externos.
   
-- **Main:** Sección del contenedor para los elementos centrales de la página: logo, barra de busqueda, iconos y botones.
+- **Main:** Sección del contenedor para los elementos centrales de la página: logo, barra de búsqueda, iconos y botones.
 
+-**Footer:** Sección que incluye enlaces externos al final de la página.
 
+Las tecnologias que utilicé, son:
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
