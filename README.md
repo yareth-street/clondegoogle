@@ -7,13 +7,14 @@
 4. Link a demo
 
 ### 1. Intro
-HTML5 trabaj de la mano con CSS3 para crear paginas web que usamos todos los dias en el navegador. En este proyecto, con los conocimientos de HTML  interfaz de Google
+HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los dias en el navegador. En este proyecto, con los conocimientos de HTML y CSS realicé la clonación de la interfaz de Google
 
 ### 2. Qué construí
 En este proyecto me enfoque en construí la clonación de la interfaz de Google. 
 Contiene las siguietes secciones:
 
-- **Header:**
-- 
+- **Header:** Sección que ivolucra la foto de mi perfil, iconos y un menú con enlaces externos.
+  
+- **Main:** Sección del contenedor para los elementos centrales de la página: logo, barra de busqueda, iconos y botones.
 
 
